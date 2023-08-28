@@ -1,13 +1,16 @@
 body {
     flex-direction: column;
     display: flex;
+    margin: 0;
 }
 
 .header {
     background-color: #1F2937;
     width: 100vw;
     min-height: 15rem;
+    
 }
+
 
 .random {
     background-color: #1F2937;
@@ -30,5 +33,5 @@ body {
 .footer {
     background-color: #1F2937;
     width: 100vw;
-    min-height: 20rem;
+    min-height: 6rem;
 }
