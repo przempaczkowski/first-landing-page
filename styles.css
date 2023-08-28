@@ -1,3 +1,7 @@
+* {
+    display: flex;
+}
+
 body {
     flex-direction: column;
     display: flex;
@@ -10,7 +14,6 @@ body {
     min-height: 15rem;
     
 }
-
 
 .random {
     background-color: #1F2937;
