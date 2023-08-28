@@ -16,6 +16,21 @@ body {
     margin: 1rem 15rem 15rem 15rem;
 }
 
+#logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+#list a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+a {
+    text-decoration: none;
+    padding: 8px;
+}
+
 #hero-container {
     display: flex;
     justify-content: space-between;
