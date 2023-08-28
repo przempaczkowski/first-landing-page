@@ -35,7 +35,7 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 1rem 15rem 0rem 15rem;
+    margin: 1rem 15rem 5rem 15rem;
 }
 
 h2 {
@@ -50,7 +50,7 @@ p {
 }
 
 img {
-    padding-left: 20rem;
+    padding-left: 17rem;
     height: 20rem;
     width: 40rem;
 }
@@ -61,11 +61,11 @@ img {
     background-color: #3882F6;
 }
 
-.random {
+/*.random {
     background-color: #1F2937;
     width: 100vw;
     min-height: 20rem;
-}
+}*/
 
 .quote {
     background-color: #E5E7EB;
