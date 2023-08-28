@@ -13,7 +13,7 @@ body {
 #navbar {
     display: flex;
     justify-content: space-between;
-    margin: 1rem 15rem 15rem 15rem;
+    margin: 1rem 15rem 5rem 15rem;
 }
 
 #logo {
@@ -33,7 +33,7 @@ a {
 
 #hero-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
     margin: 1rem 15rem 0rem 15rem;
 }
@@ -47,6 +47,12 @@ h2 {
 p {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+img {
+    padding-left: 20rem;
+    height: 20rem;
+    width: 40rem;
 }
 
 #sign-up {
