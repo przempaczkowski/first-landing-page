@@ -61,11 +61,11 @@ img {
     background-color: #3882F6;
 }
 
-/*.random {
-    background-color: #1F2937;
+.random {
+    background-color: whitesmoke;
     width: 100vw;
     min-height: 20rem;
-}*/
+}
 
 .quote {
     background-color: #E5E7EB;
