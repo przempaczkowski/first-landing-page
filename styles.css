@@ -13,12 +13,22 @@ body {
 #navbar {
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
     margin: 1rem 15rem 5rem 15rem;
 }
 
 #logo {
     font-size: 24px;
     color: #F9FAF8;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    list-style-type: none;
 }
 
 #list a {
