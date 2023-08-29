@@ -90,7 +90,7 @@ h3 {
 
 #random-illustration {
     display: flex;
-    gap: 5rem;
+    justify-content: center;
     width: 5rem;
     height: 5rem;
 }
