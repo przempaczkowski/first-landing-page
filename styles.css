@@ -122,7 +122,7 @@ span {
 h4 {
     display: flex;
     flex-wrap: wrap;
-    margin: 5rem 25rem 5rem 25rem;
+    margin: 5rem 25rem 2rem 25rem;
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
@@ -130,17 +130,64 @@ h4 {
 
 #who {
     display: flex;
-    justify-content: center;
+    font-style: italic;
+    margin: 0 25rem 2rem 25rem;
+    justify-content: flex-end;
 }
 
 .signup {
+    display: flex;
+    flex-direction: column;
     background-color: whitesmoke;
     width: 100vw;
     min-height: 20rem;
 }
 
+#bluie {
+    display: flex;
+    background-color: #3882F6;
+    width: 75vw;
+    min-height: 7rem;
+    color: #F9FAF8;
+    margin: 6rem 15rem 5rem 15rem;
+    flex-direction: column;
+    border: 4px solid #3882F6;
+    border-radius: 15px;
+    justify-content: flex-start;
+}
+
+#call {
+    display: flex;
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+    justify-content: flex-start;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+#sign {
+    display: flex;
+    color: #E5E7EB;
+    font-size: 16px;
+    margin-left: 2rem;
+}
+
+#bluie button {
+    display: flex;
+    justify-items: flex-end;
+    color: #E5E7EB;
+    border: 1px solid #F9FAF8;
+}
+
+
+
 .footer {
+    display: flex;
     background-color: #1F2937;
+    color: #E5E7EB;
     width: 100vw;
     min-height: 6rem;
+    align-items: center;
+    justify-content: center;
 }
