@@ -22,16 +22,13 @@ body {
     color: #F9FAF8;
 }
 
-ul {
+ul{
     display: flex;
     flex-direction: row;
 }
 
-li {
-    list-style-type: none;
-}
 
-#list a {
+#list a{
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -39,6 +36,11 @@ li {
 a {
     text-decoration: none;
     padding: 8px;
+    
+}
+
+#list a:hover {
+    color: #bad7ff;
 }
 
 #hero-container {
