@@ -137,50 +137,34 @@ h4 {
 
 .signup {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     background-color: whitesmoke;
     width: 100vw;
     min-height: 20rem;
 }
 
-#bluie {
+#sign-up-container {
     display: flex;
     background-color: #3882F6;
     width: 75vw;
     min-height: 7rem;
     color: #F9FAF8;
     margin: 6rem 15rem 5rem 15rem;
-    flex-direction: column;
+    flex-direction: row;
     border: 4px solid #3882F6;
     border-radius: 15px;
-    justify-content: flex-start;
+    gap: 30rem;
 }
 
-#call {
-    display: flex;
-    color: #F9FAF8;
-    font-size: 24px;
-    font-weight: bold;
-    justify-content: flex-start;
-    margin-left: 2rem;
-    margin-top: 2rem;
+#sign-up-text {
+    margin-left: 5rem;
+    margin-top: 1rem;
 }
 
-#sign {
-    display: flex;
-    color: #E5E7EB;
-    font-size: 16px;
-    margin-left: 2rem;
+#sign-up-button {
+    margin-top: 3.5rem;
+    margin-left: 3rem;
 }
-
-#bluie button {
-    display: flex;
-    justify-items: flex-end;
-    color: #E5E7EB;
-    border: 1px solid #F9FAF8;
-}
-
-
 
 .footer {
     display: flex;
