@@ -112,7 +112,7 @@ img {
   /* Close button on hover */
   .close:hover,
   .close:focus {
-    color: red;
+    color: rgb(7, 7, 7);
     cursor: pointer;
   }
   
